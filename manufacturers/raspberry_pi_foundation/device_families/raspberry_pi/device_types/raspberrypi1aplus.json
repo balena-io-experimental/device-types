@@ -1,0 +1,9 @@
+{
+  "name": "raspberrypi1aplus",
+  "version": 1,
+  "type": "device_type",
+  "link": {
+    "device_family": "raspberrypi",
+    "processor": "arm1176jzf_s"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "raspberry_pi_foundation",
+  "version": 1,
+  "aliases": [],
+  "type": "manufacturer",
+  "data": {
+    "url": "https://www.raspberrypi.org"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "raspberrypi",
+  "version": 1,
+  "type": "device_family",
+  "link": {
+    "manufacturer": "raspberry_pi_foundation"
+  }
+}
