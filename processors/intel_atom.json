@@ -1,0 +1,9 @@
+{
+  "name": "intel_atom",
+  "version": 1,
+  "aliases": [],
+  "type": "processor",
+  "link": {
+    "architecture": "i386"
+  }
+}

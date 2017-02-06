@@ -1,0 +1,9 @@
+{
+  "name": "arm1176jzf_s",
+  "version": 1,
+  "aliases": [],
+  "type": "processor",
+  "link": {
+    "architecture": "armv6z"
+  }
+}

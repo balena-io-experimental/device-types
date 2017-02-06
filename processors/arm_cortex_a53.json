@@ -1,0 +1,9 @@
+{
+  "name": "arm_cortex_a53",
+  "version": 1,
+  "aliases": [],
+  "type": "processor",
+  "link": {
+    "architecture": "armv8a"
+  }
+}
