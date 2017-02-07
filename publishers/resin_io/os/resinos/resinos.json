@@ -1,0 +1,12 @@
+{
+  "name": "resinos",
+  "version": 1,
+  "aliases": [],
+  "type": "os",
+  "link": {
+    "publisher": "resin_io"
+  },
+  "data": {
+    "url": "https://resinos.io"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "raspberrypi@1.24",
+  "version": 1,
+  "aliases": [],
+  "type": "os_image",
+  "link": {
+    "os_family": "raspberrypi"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "raspberrypizero",
+  "version": 1,
+  "aliases": [],
+  "type": "os_family",
+  "link": {
+    "os": "resinos"
+  },
+  "data": {
+    "supports": [
+      "raspberrypizero"
+    ]
+  }
+}

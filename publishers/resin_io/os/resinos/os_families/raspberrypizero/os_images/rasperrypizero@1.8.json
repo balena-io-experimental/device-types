@@ -1,0 +1,9 @@
+{
+  "name": "raspberrypizero@1.8",
+  "version": 1,
+  "aliases": [],
+  "type": "os_image",
+  "link": {
+    "os_family": "raspberrypizero"
+  }
+}

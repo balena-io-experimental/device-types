@@ -1,0 +1,15 @@
+{
+  "name": "raspberrypi2",
+  "version": 1,
+  "aliases": [],
+  "type": "os_family",
+  "link": {
+    "os": "resinos"
+  },
+  "data": {
+    "supports": [
+      "raspberrypi2_b",
+      "raspberrypi2_b_plus"
+    ]
+  }
+}
