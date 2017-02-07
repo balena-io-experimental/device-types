@@ -1,0 +1,8 @@
+{
+  "name": "generic",
+  "version": 1,
+  "type": "device_family",
+  "link": {
+    "manufacturer": "resin_io"
+  }
+}

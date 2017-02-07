@@ -1,0 +1,9 @@
+{
+  "name": "generic_amd64",
+  "version": 1,
+  "aliases": [],
+  "type": "processor",
+  "link": {
+    "architecture": "amd64"
+  }
+}

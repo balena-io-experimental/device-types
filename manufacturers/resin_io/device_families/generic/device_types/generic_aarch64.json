@@ -1,0 +1,10 @@
+{
+  "name": "generic_aarch64",
+  "version": 1,
+  "aliases": [],
+  "type": "device_type",
+  "link": {
+    "device_family": "generic",
+    "processor": "generic_aarch64"
+  }
+}

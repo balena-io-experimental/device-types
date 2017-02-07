@@ -1,0 +1,10 @@
+{
+  "name": "generic_armv6z",
+  "version": 1,
+  "aliases": [],
+  "type": "device_type",
+  "link": {
+    "device_family": "generic",
+    "processor": "generic_armv6z"
+  }
+}

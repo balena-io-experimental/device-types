@@ -1,0 +1,9 @@
+{
+  "name": "generic_armv6z",
+  "version": 1,
+  "aliases": [],
+  "type": "processor",
+  "link": {
+    "architecture": "armv6z"
+  }
+}
