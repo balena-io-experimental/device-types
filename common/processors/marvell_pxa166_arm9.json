@@ -1,9 +1,0 @@
-{
-  "name": "marvell_pxa166_arm9",
-  "version": 1,
-  "aliases": [],
-  "type": "processor",
-  "link": {
-    "architecture": "armv5e"
-  }
-}

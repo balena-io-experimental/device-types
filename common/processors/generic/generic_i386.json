@@ -1,9 +1,0 @@
-{
-  "name": "generic_i386",
-  "version": 1,
-  "aliases": [],
-  "type": "processor",
-  "link": {
-    "architecture": "i386"
-  }
-}

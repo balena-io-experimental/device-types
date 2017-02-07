@@ -1,9 +1,0 @@
-{
-  "name": "intel_atom_silvermont",
-  "version": 1,
-  "aliases": [],
-  "type": "processor",
-  "link": {
-    "architecture": "i386"
-  }
-}

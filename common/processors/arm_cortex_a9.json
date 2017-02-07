@@ -1,9 +1,0 @@
-{
-  "name": "arm_cortex_a9",
-  "version": 1,
-  "aliases": [],
-  "type": "processor",
-  "link": {
-    "architecture": "armv7a"
-  }
-}

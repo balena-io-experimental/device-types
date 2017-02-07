@@ -1,9 +1,0 @@
-{
-  "name": "intel_quark_x1020",
-  "version": 1,
-  "aliases": [],
-  "type": "processor",
-  "link": {
-    "architecture": "i386"
-  }
-}
