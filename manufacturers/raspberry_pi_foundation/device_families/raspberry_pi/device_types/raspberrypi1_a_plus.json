@@ -1,9 +1,9 @@
 {
-  "name": "raspberrypi2bplus",
+  "name": "raspberrypi1_a_plus",
   "version": 1,
   "type": "device_type",
   "link": {
     "device_family": "raspberrypi",
-    "processor": "arm_cortex_a7"
+    "processor": "arm1176jzf_s"
   }
 }
