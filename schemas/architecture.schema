@@ -1,0 +1,31 @@
+{
+	"title": "Device Architecture",
+	"type": "object",
+	"properties": {
+		"name": {
+			"type": "string"
+		},
+		"version": {
+			"type": "integer",
+			"minimum": 0,
+      "exclusiveMinimum": true
+		},
+		"aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+		},
+    "type": {
+      "constant": "architecture"
+    }
+	},
+	"required": [
+    "name",
+    "version",
+    "aliases",
+    "type"
+  ]
+}
