@@ -1,6 +1,5 @@
 {
   "name": "beagleboneblack",
-  "version": 1,
   "type": "device_type",
   "link": {
     "device_family": "beaglebone",

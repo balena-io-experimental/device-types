@@ -1,6 +1,5 @@
 {
   "name": "raspberrypizero",
-  "version": 1,
   "type": "device_type",
   "link": {
     "device_family": "raspberrypi",

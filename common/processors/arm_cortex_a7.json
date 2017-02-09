@@ -1,6 +1,5 @@
 {
   "name": "arm_cortex_a7",
-  "version": 1,
   "aliases": [],
   "type": "processor",
   "link": {

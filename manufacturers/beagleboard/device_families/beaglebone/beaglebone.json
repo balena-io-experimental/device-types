@@ -1,6 +1,5 @@
 {
   "name": "beaglebone",
-  "version": 1,
   "type": "device_family",
   "link": {
     "manufacturer": "beagleboard"

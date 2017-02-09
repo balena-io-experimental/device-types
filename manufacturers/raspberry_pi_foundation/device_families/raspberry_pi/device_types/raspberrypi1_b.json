@@ -1,6 +1,5 @@
 {
   "name": "raspberrypi1_b",
-  "version": 1,
   "type": "device_type",
   "link": {
     "device_family": "raspberrypi",
