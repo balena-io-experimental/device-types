@@ -1,9 +1,10 @@
 {
-	"title": "Device Architecture",
+	"title": "architecture",
 	"type": "object",
 	"properties": {
 		"name": {
-			"type": "string"
+			"type": "string",
+      "pattern": "^[a-z0-9_]+$"
 		},
 		"version": {
 			"type": "integer",
@@ -19,6 +20,7 @@
       "uniqueItems": true
 		},
     "type": {
+      "type": "string",
       "constant": "architecture"
     }
 	},
