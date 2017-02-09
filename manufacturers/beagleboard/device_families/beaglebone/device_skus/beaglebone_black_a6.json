@@ -1,0 +1,8 @@
+{
+  "name": "beaglebone_black_a6",
+  "type": "device_sku",
+  "link": {
+    "device_type": "beaglebone_black",
+    "processor": "xam3359azcz100"
+  }
+}

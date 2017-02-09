@@ -1,8 +1,0 @@
-{
-  "name": "beaglebone_green",
-  "type": "device_type",
-  "link": {
-    "device_family": "beaglebone",
-    "processor": "arm_cortex_a8"
-  }
-}

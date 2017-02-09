@@ -1,0 +1,8 @@
+{
+  "name": "beaglebone_black_c",
+  "type": "device_sku",
+  "link": {
+    "device_type": "beaglebone_black",
+    "processor": "am3358bzcz100"
+  }
+}

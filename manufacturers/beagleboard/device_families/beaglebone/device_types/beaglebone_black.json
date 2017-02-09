@@ -2,7 +2,6 @@
   "name": "beaglebone_black",
   "type": "device_type",
   "link": {
-    "device_family": "beaglebone",
-    "processor": "arm_cortex_a8"
+    "device_family": "beaglebone"
   }
 }

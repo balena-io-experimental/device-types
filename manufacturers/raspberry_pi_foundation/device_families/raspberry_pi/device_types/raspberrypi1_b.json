@@ -2,7 +2,6 @@
   "name": "raspberrypi1_b",
   "type": "device_type",
   "link": {
-    "device_family": "raspberrypi",
-    "processor": "arm1176jzf_s"
+    "device_family": "raspberrypi"
   }
 }

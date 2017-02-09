@@ -1,8 +1,0 @@
-{
-  "name": "raspberrypi2_b_plus",
-  "type": "device_type",
-  "link": {
-    "device_family": "raspberrypi",
-    "processor": "arm_cortex_a7"
-  }
-}

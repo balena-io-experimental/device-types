@@ -2,7 +2,6 @@
   "name": "raspberrypi3_b",
   "type": "device_type",
   "link": {
-    "device_family": "raspberrypi",
-    "processor": "arm_cortex_a53"
+    "device_family": "raspberrypi"
   }
 }

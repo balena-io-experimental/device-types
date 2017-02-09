@@ -1,0 +1,8 @@
+{
+  "name": "raspberrypi2_b_1_2",
+  "type": "device_sku",
+  "link": {
+    "device_type": "raspberrypi3_b",
+    "processor": "bcm2837"
+  }
+}

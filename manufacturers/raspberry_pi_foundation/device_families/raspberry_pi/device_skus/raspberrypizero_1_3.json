@@ -1,0 +1,8 @@
+{
+  "name": "raspberrypizero_1_3",
+  "type": "device_sku",
+  "link": {
+    "device_type": "raspberrypizero",
+    "processor": "arm1176jzf_s"
+  }
+}
