@@ -1,7 +1,7 @@
 {
   "name": "raspberrypi",
   "type": "device_family",
-  "link": {
+  "data": {
     "manufacturer": "raspberry_pi_foundation"
   }
 }
