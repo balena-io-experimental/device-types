@@ -1,5 +1,5 @@
 {
-  "name": "beagleboneblack",
+  "name": "beaglebone_black",
   "type": "device_type",
   "link": {
     "device_family": "beaglebone",
