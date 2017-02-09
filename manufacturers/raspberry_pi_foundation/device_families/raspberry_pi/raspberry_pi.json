@@ -1,5 +1,5 @@
 {
-  "name": "raspberrypi",
+  "name": "raspberry_pi",
   "type": "device_family",
   "data": {
     "manufacturer": "raspberry_pi_foundation"
