@@ -2,7 +2,8 @@
   "name": "arm_cortex_a7",
   "aliases": [],
   "type": "processor",
+  "namespace": "hardware_component",
   "link": {
-    "architecture": "armv7a"
+    "architecture": "armv7at2hf-vfp-neon-vfpv4"
   }
 }

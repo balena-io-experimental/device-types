@@ -2,6 +2,7 @@
   "name": "arm_cortex_a8",
   "aliases": [],
   "type": "processor",
+  "namespace": "hardware_component",
   "link": {
     "architecture": "armv7a"
   }

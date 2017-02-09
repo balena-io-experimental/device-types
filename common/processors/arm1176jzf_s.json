@@ -2,6 +2,7 @@
   "name": "arm1176jzf_s",
   "aliases": [],
   "type": "processor",
+  "namespace": "hardware_component",
   "link": {
     "architecture": "armv6z"
   }

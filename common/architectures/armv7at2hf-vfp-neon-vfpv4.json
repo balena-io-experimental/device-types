@@ -1,5 +1,5 @@
 {
-  "name": "armv6z",
+  "name": "armv7at2hf-vfp-neon-vfpv4",
   "aliases": [],
   "namespace": "hardware_component",
   "type": "architecture"

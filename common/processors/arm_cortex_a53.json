@@ -2,6 +2,7 @@
   "name": "arm_cortex_a53",
   "aliases": [],
   "type": "processor",
+  "namespace": "hardware_component",
   "link": {
     "architecture": "armv8a"
   }

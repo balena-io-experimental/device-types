@@ -1,5 +1,5 @@
 {
-  "name": "armv6z",
+  "name": "arm1176jzfshf-vfp",
   "aliases": [],
   "namespace": "hardware_component",
   "type": "architecture"
