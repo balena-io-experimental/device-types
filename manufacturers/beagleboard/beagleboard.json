@@ -1,8 +1,0 @@
-{
-  "name": "beagleboard",
-  "aliases": [],
-  "type": "manufacturer",
-  "data": {
-    "url": "http://beagleboard.org"
-  }
-}
