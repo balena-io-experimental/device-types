@@ -1,9 +1,0 @@
-{
-  "name": "resin_io",
-  "version": 1,
-  "aliases": [],
-  "type": "manufacturer",
-  "data": {
-    "url": "https://resin.io"
-  }
-}

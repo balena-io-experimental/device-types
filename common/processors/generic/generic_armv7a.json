@@ -1,9 +1,0 @@
-{
-  "name": "generic_armv7a",
-  "version": 1,
-  "aliases": [],
-  "type": "processor",
-  "link": {
-    "architecture": "armv7a"
-  }
-}
