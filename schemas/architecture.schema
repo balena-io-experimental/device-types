@@ -1,30 +1,30 @@
 {
-	"title": "architecture",
-	"type": "object",
-	"properties": {
-		"name": {
-			"type": "string",
+  "title": "architecture",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
       "pattern": "^[a-z0-9_]+$"
-		},
-		"version": {
-			"type": "integer",
-			"minimum": 0,
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 0,
       "exclusiveMinimum": true
-		},
-		"aliases": {
+    },
+    "aliases": {
       "type": "array",
       "items": {
         "type": "string"
       },
       "minItems": 0,
       "uniqueItems": true
-		},
+    },
     "type": {
       "type": "string",
       "constant": "architecture"
     }
-	},
-	"required": [
+  },
+  "required": [
     "name",
     "version",
     "aliases",
