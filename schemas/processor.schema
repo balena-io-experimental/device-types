@@ -33,6 +33,7 @@
   "required": [
     "name",
     "aliases",
-    "type"
+    "type",
+    "link"
   ]
 }
