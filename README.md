@@ -5,13 +5,13 @@ Device Types
 
 The entities declared in this repository are:
 
-| Entity          | Description                                 | Example                       |
-|-----------------|---------------------------------------------|-------------------------------|
-| `architecture`  | A precise architecture string               | `armv7at2hf-vfp-neon-vfpv4`   |
-| `processor`     | A processor that implements an architecture | ARM Cortex A8                 |
-| `device_family` | A family of device types                    | Raspberry Pi                  |
-| `device_type`   | A device model, part of a device family     | Raspberry Pi 3 Model B        |
-| `device_sku`    | A precise instantiation of a device type    | Raspberry Pi Model A+ rev 1.1 |
+| Entity                                  | Description                                 | Example                       |
+|-----------------------------------------|---------------------------------------------|-------------------------------|
+| [`architecture`][schema-architecture]   | A precise architecture string               | `armv7at2hf-vfp-neon-vfpv4`   |
+| [`processor`][schema-processor]         | A processor that implements an architecture | ARM Cortex A8                 |
+| [`device_family`][schema-device-family] | A family of device types                    | Raspberry Pi                  |
+| [`device_type`][schema-device-type]     | A device model, part of a device family     | Raspberry Pi 3 Model B        |
+| [`device_sku`][schema-device-sku]       | A precise instantiation of a device type    | Raspberry Pi Model A+ rev 1.1 |
 
 Relationships
 -------------
@@ -32,3 +32,9 @@ License
 -------
 
 The project is licensed under the Apache 2.0 license.
+
+[schema-architecture]: https://github.com/resin-io-playground/device-types/blob/master/schemas/architecture.schema
+[schema-processor]: https://github.com/resin-io-playground/device-types/blob/master/schemas/processor.schema
+[schema-device-family]: https://github.com/resin-io-playground/device-types/blob/master/schemas/device_family.schema
+[schema-device-type]: https://github.com/resin-io-playground/device-types/blob/master/schemas/device_type.schema
+[schema-device-sku]: https://github.com/resin-io-playground/device-types/blob/master/schemas/device_sku.schema
