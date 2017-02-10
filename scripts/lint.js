@@ -23,6 +23,25 @@ const CONTRACTS = _.chain(recursiveReadSync(ROOT_PATH))
   })
   .value();
 
+const DUPLICATES = _.chain(CONTRACTS)
+  .groupBy('contents.name')
+  .pickBy((contracts) => {
+    return contracts.length > 1;
+  })
+  .mapValues((value) => {
+    return _.map(value, 'path');
+  })
+  .value();
+
+_.each(DUPLICATES, (value, key) => {
+  console.error('Contract names should be unique');
+  console.error(`\t${key}:`);
+
+  _.each(value, (duplicatedPath) => {
+    console.log(`\t\t${duplicatedPath}`);
+  });
+});
+
 _.each(CONTRACTS, (contract) => {
 
   if (!_.isEqual(contract.name, contract.contents.name)) {
