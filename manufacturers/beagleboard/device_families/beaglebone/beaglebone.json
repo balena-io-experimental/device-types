@@ -1,5 +1,6 @@
 {
   "name": "beaglebone",
+  "aliases": [],
   "type": "device_family",
   "data": {
     "manufacturer": "beagleboard"

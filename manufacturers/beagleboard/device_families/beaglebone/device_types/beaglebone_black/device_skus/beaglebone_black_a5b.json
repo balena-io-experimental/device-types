@@ -1,5 +1,6 @@
 {
   "name": "beaglebone_black_a5b",
+  "aliases": [],
   "type": "device_sku",
   "namespace": "hardware_component",
   "link": {

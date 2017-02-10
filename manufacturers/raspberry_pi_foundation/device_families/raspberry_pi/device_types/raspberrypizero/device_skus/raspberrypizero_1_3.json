@@ -1,5 +1,6 @@
 {
   "name": "raspberrypizero_1_3",
+  "aliases": [],
   "type": "device_sku",
   "namespace": "hardware_component",
   "link": {

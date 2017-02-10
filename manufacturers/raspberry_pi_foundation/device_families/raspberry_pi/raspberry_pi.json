@@ -1,5 +1,6 @@
 {
   "name": "raspberry_pi",
+  "aliases": [],
   "type": "device_family",
   "data": {
     "manufacturer": "raspberry_pi_foundation"

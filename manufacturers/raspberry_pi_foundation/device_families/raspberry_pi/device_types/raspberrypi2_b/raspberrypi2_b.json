@@ -1,5 +1,6 @@
 {
   "name": "raspberrypi2_b",
+  "aliases": [],
   "type": "device_type",
   "link": {
     "device_family": "raspberry_pi"

@@ -1,5 +1,6 @@
 {
   "name": "beaglebone_black",
+  "aliases": [],
   "type": "device_type",
   "link": {
     "device_family": "beaglebone"
