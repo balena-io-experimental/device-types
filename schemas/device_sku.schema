@@ -1,0 +1,40 @@
+{
+  "title": "device_sku",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "type": {
+      "type": "string",
+      "constant": "device_sku"
+    },
+    "link": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^[a-z0-9_]+$"
+      },
+      "required": [
+        "device_type",
+        "processor"
+      ]
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "aliases",
+    "type",
+    "link"
+  ]
+}

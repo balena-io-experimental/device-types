@@ -87,28 +87,21 @@ _.each(CONTRACTS, (contract) => {
     });
   }
 
-  if (_.includes([
-    'architecture',
-    'processor',
-    'device_family',
-    'device_type'
-  ], contract.contents.type)) {
-    const schema = _.get(SCHEMAS, contract.contents.type);
+  const schema = _.get(SCHEMAS, contract.contents.type);
 
-    if (_.isUndefined(schema)) {
-      console.error('Contracts should have an accompanying schema');
-      console.error(`\t${contract.contents.type}`);
-    }
+  if (_.isUndefined(schema)) {
+    console.error('Contracts should have an accompanying schema');
+    console.error(`\t${contract.contents.type}`);
+  }
 
-    const validationErrors = validate(contract.contents, schema);
+  const validationErrors = validate(contract.contents, schema);
 
-    if (!_.isEmpty(validationErrors)) {
-      console.error('Contracts should adhere to their schema');
-      console.error(`\t${contract.name}`);
+  if (!_.isEmpty(validationErrors)) {
+    console.error('Contracts should adhere to their schema');
+    console.error(`\t${contract.name}`);
 
-      _.each(validationErrors, (error) => {
-        console.error(`\t\t${error.stack}`);
-      });
-    }
+    _.each(validationErrors, (error) => {
+      console.error(`\t\t${error.stack}`);
+    });
   }
 });
