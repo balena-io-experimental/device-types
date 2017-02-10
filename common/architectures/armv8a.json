@@ -1,6 +1,0 @@
-{
-  "name": "armv8a",
-  "aliases": [],
-  "namespace": "hardware_component",
-  "type": "architecture"
-}

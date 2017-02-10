@@ -4,6 +4,6 @@
   "type": "processor",
   "namespace": "hardware_component",
   "link": {
-    "architecture": "armv8a"
+    "architecture": "armv7at2hf-vfp-neon-vfpv4"
   }
 }

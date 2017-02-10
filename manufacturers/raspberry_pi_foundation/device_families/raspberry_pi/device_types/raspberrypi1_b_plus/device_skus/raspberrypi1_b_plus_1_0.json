@@ -4,6 +4,6 @@
   "namespace": "hardware_component",
   "link": {
     "device_type": "raspberrypi1_b_plus",
-    "processor": "arm1176jzf_s"
+    "processor": "arm1176"
   }
 }

@@ -2,6 +2,6 @@
   "name": "raspberrypi3_b",
   "type": "device_type",
   "link": {
-    "device_family": "raspberrypi"
+    "device_family": "raspberry_pi"
   }
 }

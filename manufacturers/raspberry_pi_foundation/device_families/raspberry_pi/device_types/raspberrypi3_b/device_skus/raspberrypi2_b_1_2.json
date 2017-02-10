@@ -4,6 +4,6 @@
   "namespace": "hardware_component",
   "link": {
     "device_type": "raspberrypi3_b",
-    "processor": "bcm2837"
+    "processor": "arm_cortex_a53"
   }
 }

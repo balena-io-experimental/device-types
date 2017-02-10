@@ -4,6 +4,6 @@
   "namespace": "hardware_component",
   "link": {
     "device_type": "beaglebone_black",
-    "processor": "xam3359azcz100"
+    "processor": "arm_cortex_a8"
   }
 }
