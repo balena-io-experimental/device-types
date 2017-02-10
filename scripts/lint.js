@@ -23,6 +23,15 @@ const CONTRACTS = _.chain(recursiveReadSync(ROOT_PATH))
   })
   .value();
 
+const findContract = (type, name) => {
+  return _.find(CONTRACTS, (contract) => {
+    return _.every([
+      contract.contents.type === type,
+      contract.name === name
+    ]);
+  });
+};
+
 const DUPLICATES = _.chain(CONTRACTS)
   .groupBy('contents.name')
   .pickBy((contracts) => {
@@ -49,4 +58,14 @@ _.each(CONTRACTS, (contract) => {
     console.error(`\t${contract.path}`);
   }
 
+  if (_.has(contract.contents, 'link')) {
+    _.each(contract.contents.link, (name, type) => {
+
+      if (_.isUndefined(findContract(type, name))) {
+        console.error('Contracts should link to valid contracts');
+        console.error(`\t${contract.name}`);
+        console.error(`\t\t${type} -> ${name}`);
+      }
+    });
+  }
 });

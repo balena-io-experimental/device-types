@@ -26,6 +26,7 @@ Rules
 
 - Each contract file name should equal its own slug
 - Each contract slug should be unique, even among different contract types
+- Each contract should only link to valid contracts
 
 License
 -------
