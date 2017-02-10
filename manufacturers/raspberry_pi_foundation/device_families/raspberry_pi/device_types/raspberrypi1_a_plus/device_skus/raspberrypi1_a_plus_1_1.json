@@ -1,6 +1,7 @@
 {
   "name": "raspberrypi1_a_plus_1_1",
   "type": "device_sku",
+  "namespace": "hardware_component",
   "link": {
     "device_type": "raspberrypi1_a_plus",
     "processor": "arm1176jzf_s"

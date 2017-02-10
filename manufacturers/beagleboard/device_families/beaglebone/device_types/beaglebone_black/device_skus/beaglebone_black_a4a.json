@@ -1,6 +1,7 @@
 {
   "name": "beaglebone_black_a4a",
   "type": "device_sku",
+  "namespace": "hardware_component",
   "link": {
     "device_type": "beaglebone_black",
     "processor": "am3352"

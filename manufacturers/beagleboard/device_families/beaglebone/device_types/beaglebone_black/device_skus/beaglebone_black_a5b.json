@@ -1,6 +1,7 @@
 {
   "name": "beaglebone_black_a5b",
   "type": "device_sku",
+  "namespace": "hardware_component",
   "link": {
     "device_type": "beaglebone_black",
     "processor": "xam3359azcz100"

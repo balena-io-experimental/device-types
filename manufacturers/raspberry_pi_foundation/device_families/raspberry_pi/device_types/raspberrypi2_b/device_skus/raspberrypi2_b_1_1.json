@@ -1,6 +1,7 @@
 {
   "name": "raspberrypi2_b_1_1",
   "type": "device_sku",
+  "namespace": "hardware_component",
   "link": {
     "device_type": "raspberrypi2_b",
     "processor": "arm_cortex_a7"
