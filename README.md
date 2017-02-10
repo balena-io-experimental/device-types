@@ -7,7 +7,7 @@ The entities declared in this repository are:
 
 | Entity                                  | Description                                 | Example                       |
 |-----------------------------------------|---------------------------------------------|-------------------------------|
-| [`architecture`][schema-architecture]   | A precise architecture string               | `armv7at2hf-vfp-neon-vfpv4`   |
+| [`architecture`][schema-architecture]   | A precise architecture string               | `armv7at2hf_vfp_neon_vfpv4`   |
 | [`processor`][schema-processor]         | A processor that implements an architecture | ARM Cortex A8                 |
 | [`device_family`][schema-device-family] | A family of device types                    | Raspberry Pi                  |
 | [`device_type`][schema-device-type]     | A device model, part of a device family     | Raspberry Pi 3 Model B        |
