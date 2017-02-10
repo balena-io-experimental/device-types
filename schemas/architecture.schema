@@ -6,11 +6,6 @@
       "type": "string",
       "pattern": "^[a-z0-9_]+$"
     },
-    "version": {
-      "type": "integer",
-      "minimum": 0,
-      "exclusiveMinimum": true
-    },
     "aliases": {
       "type": "array",
       "items": {
@@ -26,7 +21,6 @@
   },
   "required": [
     "name",
-    "version",
     "aliases",
     "type"
   ]

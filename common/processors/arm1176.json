@@ -4,6 +4,6 @@
   "type": "processor",
   "namespace": "hardware_component",
   "link": {
-    "architecture": "arm1176jzfshf-vfp"
+    "architecture": "arm1176jzfshf_vfp"
   }
 }
