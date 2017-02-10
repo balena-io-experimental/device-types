@@ -1,0 +1,38 @@
+{
+  "title": "processor",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "type": {
+      "type": "string",
+      "constant": "processor"
+    },
+    "link": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^[a-z0-9_]+$"
+      },
+      "required": [
+        "architecture"
+      ]
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "aliases",
+    "type"
+  ]
+}
