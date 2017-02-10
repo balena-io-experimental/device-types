@@ -1,0 +1,39 @@
+{
+  "title": "device_type",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "type": {
+      "type": "string",
+      "constant": "device_type"
+    },
+    "link": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^[a-z0-9_]+$"
+      },
+      "required": [
+        "device_family"
+      ]
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "name",
+    "aliases",
+    "type",
+    "link"
+  ]
+}

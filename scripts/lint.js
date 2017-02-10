@@ -90,7 +90,8 @@ _.each(CONTRACTS, (contract) => {
   if (_.includes([
     'architecture',
     'processor',
-    'device_family'
+    'device_family',
+    'device_type'
   ], contract.contents.type)) {
     const schema = _.get(SCHEMAS, contract.contents.type);
 
