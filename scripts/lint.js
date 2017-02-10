@@ -87,7 +87,11 @@ _.each(CONTRACTS, (contract) => {
     });
   }
 
-  if (contract.contents.type === 'architecture') {
+  if (_.includes([
+    'architecture',
+    'processor',
+    'device_family'
+  ], contract.contents.type)) {
     const schema = _.get(SCHEMAS, contract.contents.type);
 
     if (_.isUndefined(schema)) {
