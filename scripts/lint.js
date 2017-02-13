@@ -71,8 +71,8 @@ _.each(DUPLICATES, (value, key) => {
 
 _.each(CONTRACTS, (contract) => {
 
-  if (!_.isEqual(contract.name, contract.contents.name)) {
-    console.error('Contract name should equal file name');
+  if (!_.isEqual(contract.name, 'contract')) {
+    console.error('Contract name should equal "contract"');
     console.error(`\t${contract.path}`);
   }
 
