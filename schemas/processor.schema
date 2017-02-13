@@ -18,7 +18,7 @@
       "type": "string",
       "constant": "processor"
     },
-    "link": {
+    "data": {
       "type": "object",
       "additionalProperties": {
         "type": "string",
@@ -34,6 +34,6 @@
     "name",
     "aliases",
     "type",
-    "link"
+    "data"
   ]
 }

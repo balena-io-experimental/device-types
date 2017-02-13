@@ -1,6 +1,6 @@
 {
   "name": "arm1176jzfshf_vfp",
   "aliases": [],
-  "namespace": "hardware_component",
-  "type": "architecture"
+  "type": "architecture",
+  "data": {}
 }

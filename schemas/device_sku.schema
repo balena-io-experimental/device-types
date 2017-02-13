@@ -18,7 +18,7 @@
       "type": "string",
       "constant": "device_sku"
     },
-    "link": {
+    "data": {
       "type": "object",
       "additionalProperties": {
         "type": "string",
@@ -35,6 +35,6 @@
     "name",
     "aliases",
     "type",
-    "link"
+    "data"
   ]
 }

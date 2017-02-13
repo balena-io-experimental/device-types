@@ -17,12 +17,16 @@
     "type": {
       "type": "string",
       "constant": "architecture"
+    },
+    "data": {
+      "type": "object"
     }
   },
   "additionalProperties": false,
   "required": [
     "name",
     "aliases",
-    "type"
+    "type",
+    "data"
   ]
 }

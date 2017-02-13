@@ -2,8 +2,7 @@
   "name": "beaglebone_black_a4a",
   "aliases": [],
   "type": "device_sku",
-  "namespace": "hardware_component",
-  "link": {
+  "data": {
     "device_type": "beaglebone_black",
     "processor": "arm_cortex_a8"
   }

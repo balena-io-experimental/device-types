@@ -2,8 +2,7 @@
   "name": "arm1176",
   "aliases": [],
   "type": "processor",
-  "namespace": "hardware_component",
-  "link": {
+  "data": {
     "architecture": "arm1176jzfshf_vfp"
   }
 }

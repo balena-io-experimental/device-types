@@ -2,8 +2,7 @@
   "name": "arm_cortex_a53",
   "aliases": [],
   "type": "processor",
-  "namespace": "hardware_component",
-  "link": {
+  "data": {
     "architecture": "armv7at2hf_vfp_neon_vfpv4"
   }
 }

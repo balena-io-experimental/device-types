@@ -1,6 +1,6 @@
 {
   "name": "armv7at2hf_vfp_neon_vfpv4",
   "aliases": [],
-  "namespace": "hardware_component",
-  "type": "architecture"
+  "type": "architecture",
+  "data": {}
 }

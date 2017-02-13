@@ -2,7 +2,7 @@
   "name": "raspberrypi1_a",
   "aliases": [],
   "type": "device_type",
-  "link": {
+  "data": {
     "device_family": "raspberry_pi"
   }
 }
