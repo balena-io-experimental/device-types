@@ -1,6 +1,7 @@
 const _ = require('lodash');
 const fs = require('fs');
 const path = require('path');
+const yaml = require('js-yaml');
 const recursiveReadSync = require('recursive-readdir-sync');
 const jsonschema = require('jsonschema');
 const ROOT_PATH = path.join(__dirname, '..');
@@ -26,7 +27,7 @@ const CONTRACTS = _.chain(recursiveReadSync(ROOT_PATH))
   .map(_.partial(path.relative, ROOT_PATH))
   .filter((filePath) => {
     return _.every([
-      _.isEqual(path.extname(filePath), '.json'),
+      _.isEqual(path.extname(filePath), '.yaml'),
       !_.startsWith(filePath, '.'),
       !_.startsWith(filePath, 'node_modules'),
       !_.startsWith(filePath, 'package.json')
@@ -36,7 +37,9 @@ const CONTRACTS = _.chain(recursiveReadSync(ROOT_PATH))
     return {
       path: filePath,
       name: path.basename(filePath, path.extname(filePath)),
-      contents: require(path.join(ROOT_PATH, filePath))
+      contents: yaml.safeLoad(fs.readFileSync(path.join(ROOT_PATH, filePath), {
+        encoding: 'utf8'
+      }))
     };
   })
   .value();

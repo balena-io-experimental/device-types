@@ -1,9 +1,0 @@
-{
-  "name": "raspberry_pi",
-  "aliases": [],
-  "type": "device_family",
-  "data": {
-    "virtual": true,
-    "manufacturer": "raspberry_pi_foundation"
-  }
-}

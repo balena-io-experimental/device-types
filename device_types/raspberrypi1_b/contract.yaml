@@ -1,0 +1,6 @@
+name: raspberrypi1_b
+aliases: []
+type: device_type
+data:
+  virtual: true
+  device_family: raspberry_pi

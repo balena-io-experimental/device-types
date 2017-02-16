@@ -1,0 +1,6 @@
+name: raspberrypi1_a_2_0
+aliases: []
+type: device_sku
+data:
+  device_type: raspberrypi1_a
+  processor: arm1176

@@ -1,9 +1,0 @@
-{
-  "name": "raspberrypizero_1_3",
-  "aliases": [],
-  "type": "device_sku",
-  "data": {
-    "device_type": "raspberrypizero",
-    "processor": "arm1176"
-  }
-}

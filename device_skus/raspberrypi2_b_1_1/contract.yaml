@@ -1,0 +1,6 @@
+name: raspberrypi2_b_1_1
+aliases: []
+type: device_sku
+data:
+  device_type: raspberrypi2_b
+  processor: arm_cortex_a7

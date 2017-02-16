@@ -1,8 +1,0 @@
-{
-  "name": "arm1176",
-  "aliases": [],
-  "type": "processor",
-  "data": {
-    "architecture": "arm1176jzfshf_vfp"
-  }
-}

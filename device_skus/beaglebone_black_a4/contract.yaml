@@ -1,0 +1,6 @@
+name: beaglebone_black_a4
+aliases: []
+type: device_sku
+data:
+  device_type: beaglebone_black
+  processor: arm_cortex_a8

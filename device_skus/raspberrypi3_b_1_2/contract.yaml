@@ -1,0 +1,6 @@
+name: raspberrypi3_b_1_2
+aliases: []
+type: device_sku
+data:
+  device_type: raspberrypi3_b
+  processor: arm_cortex_a53

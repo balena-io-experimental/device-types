@@ -1,8 +1,0 @@
-{
-  "name": "arm_cortex_a7",
-  "aliases": [],
-  "type": "processor",
-  "data": {
-    "architecture": "armv7at2hf_vfp_neon_vfpv4"
-  }
-}

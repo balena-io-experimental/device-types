@@ -1,0 +1,5 @@
+name: arm_cortex_a8
+aliases: []
+type: processor
+data:
+  architecture: armv7at2hf_vfp_neon

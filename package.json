@@ -9,6 +9,7 @@
   "author": "Juan Cruz Viotti <juan@resin.io>",
   "license": "Apache-2.0",
   "dependencies": {
+    "js-yaml": "^3.8.1",
     "jsonschema": "^1.1.1",
     "lodash": "^4.17.4",
     "recursive-readdir-sync": "^1.0.6"
