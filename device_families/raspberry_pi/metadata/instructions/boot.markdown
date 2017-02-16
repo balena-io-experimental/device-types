@@ -1,0 +1,2 @@
+- Insert the SD Card into the {{device_type}}.
+- Connect your {{device_type}} to the internet, then power it up.
