@@ -3,6 +3,7 @@
   "aliases": [],
   "type": "device_family",
   "data": {
+    "virtual": true,
     "manufacturer": "beagleboard"
   }
 }

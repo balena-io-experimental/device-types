@@ -18,6 +18,10 @@
       "type": "string",
       "constant": "device_family"
     },
+    "virtual": {
+      "type": "boolean",
+      "constant": true
+    },
     "data": {
       "type": "object",
       "additionalProperties": {
@@ -34,6 +38,7 @@
     "name",
     "aliases",
     "type",
+    "virtual",
     "data"
   ]
 }
